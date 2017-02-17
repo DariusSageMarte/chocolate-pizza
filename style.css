@@ -1,0 +1,74 @@
+body {
+  width: 900px;
+  outline: 1px solid #000;
+  margin: 45px auto;
+  padding: 40px 120px;
+}
+
+#delicious {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.gray {
+  text-transform: uppercase;
+  font-family: 'Inconsolata', monospace;
+  font-size: 75%;
+
+}
+
+header {
+  display: inline-block;
+  margin: 0;
+}
+
+header p {
+  margin: 0;
+}
+
+#share-icons {
+  display: inline-block;
+  float: right;
+  margin-left: 450px;
+  margin-top: 7px;
+}
+
+h1 {
+  font-family: 'Cuprum', sans-serif;
+  border-top: 20px solid #555;
+  padding-top: 30px;
+  margin-bottom: 0px;
+}
+
+#timestamp {
+  padding-bottom: 2px;
+}
+
+#timestamp-left {
+  margin-top: 0px;
+}
+
+#timestamp-right {
+  float: right;
+  margin-left: 430px;
+}
+
+form {
+  background-image: url('img/list-bg.png');
+  overflow: hidden;
+  padding: 3em;
+}
+
+form div {
+  width: 50%;
+  float: left;
+}
+
+form label {
+  line-height: 2em;
+}
+
+.line {
+  text-decoration: line-through;
+}
