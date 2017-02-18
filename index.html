@@ -6,6 +6,7 @@
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -31,7 +32,7 @@
   <main>
     <h1>Chocolate Pizza</h1>
     <div id="timestamp">
-      <p id="timestamp-left" class="gray">Posted on 15 Dec 2013 / Desserts <span id="timestamp-right"><img src="img/print-icon.png" alt="print"/>Print</span></p>
+      <p id="timestamp-left" class="gray">Posted on 15 Dec 2013 / Desserts <span id="timestamp-right"><img id="printer-img" src="img/print-icon.png" alt="print"/>Print</span></p>
     </div>
 
     <img src="img/choco-pizza.png" alt="pizza"/>
@@ -72,10 +73,11 @@
     </section>
   </main>
 
-  <footer >
-    <hr>
-    <img src="img/small-logo.png" alt="delicious logo small"/>
-    <hr>
+  <footer>
+    <div id="footer-logo">
+      <hr>
+      <img id="small-logo" src="img/small-logo.png" alt="delicious logo small"/>
+    </div>
     <small>Delicious &copy; - All Rights Reserved.<br/>
       Proudly published with Ghost.
     </small>
