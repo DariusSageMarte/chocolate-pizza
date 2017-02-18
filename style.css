@@ -3,6 +3,7 @@ body {
   outline: 1px solid #000;
   margin: 45px auto;
   padding: 40px 120px;
+  color: #444;
 }
 
 #delicious {
@@ -15,7 +16,7 @@ body {
   text-transform: uppercase;
   font-family: 'Inconsolata', monospace;
   font-size: 75%;
-
+  color: rgb(97,101,107);
 }
 
 header {
@@ -54,10 +55,21 @@ h1 {
   margin-left: 430px;
 }
 
+.text-content {
+  text-indent: 2em;
+}
+
+#main-text {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  color: rgb(97,101,107);
+}
+
 form {
   background-image: url('img/list-bg.png');
   overflow: hidden;
   padding: 3em;
+  margin-bottom: 2em;
 }
 
 form div {
@@ -71,4 +83,51 @@ form label {
 
 .line {
   text-decoration: line-through;
+}
+
+#bio {
+  border-top: 20px solid #555;
+  padding-top: 1.5em;
+  overflow: hidden;
+}
+
+#author-img {
+  float: left;
+  margin-right: 1em;
+  padding-bottom: 15px;
+}
+
+#author-name {
+  font-weight: bold;
+  padding-bottom: .5em;
+}
+
+#author-name, #author-bio {
+  display: inline-block;
+  margin: 0px;
+}
+
+button {
+   padding: .6em 1.2em;
+   font-size: 1em;
+   background-color: rgb(188,112,88);
+   font-family: 'Inconsolata', monospace;
+   color: #fff;
+   text-transform: uppercase;
+   border: none;
+}
+
+#bio-section {
+  display: inline-block;
+  float: left;
+  margin-right: 3.68em;
+}
+
+hr {
+  width: 48%;
+  display: inline;
+}
+
+footer {
+  clear: both;
 }
